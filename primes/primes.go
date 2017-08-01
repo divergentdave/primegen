@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jbarham/primegen.go"
+	"github.com/divergentdave/primegen"
 	"log"
 	"os"
 	"strconv"

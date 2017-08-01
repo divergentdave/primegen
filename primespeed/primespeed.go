@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/jbarham/primegen.go"
+	"github.com/divergentdave/primegen"
 	"time"
 )
 

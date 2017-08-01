@@ -5,11 +5,11 @@ It is a relatively straightforward port of D. J. Bernstein's original
 C implementation (http://cr.yp.to/primegen.html) but makes use of
 Go's concurrency features which should make it faster on multi-core CPUs.
 
-Do "go get github.com/jbarham/primegen.go" to install the package.
+Do "go get github.com/divergentdave/primegen" to install the package.
 
 View the package documentation online at
-http://gopkgdoc.appspot.com/pkg/github.com/jbarham/primegen.go
-or on the command line by running "go doc github.com/jbarham/primegen.go".
+http://gopkgdoc.appspot.com/pkg/github.com/divergentdave/primegen
+or on the command line by running "go doc github.com/divergentdave/primegen".
 
 The repository includes two additional programs that illustrate usage of the
 primegen package:
@@ -20,3 +20,7 @@ primegen package:
 
 John Barham
 jbarham@gmail.com
+
+(This was forked by David Cook to change the package name. As of ca. 2012,
+repository names can no longer end in .go, to disambiguate between local files
+and source controlled projects)
